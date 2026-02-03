@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>تعلم HTML و CSS</title>
+
+<style>
+body{
+margin:0;
+font-family: Arial;
+background:#f4f6fb;
+text-align:center;
+scroll-behavior:smooth;
+}
+
+/* شريط التنقل */
+nav{
+background:#222;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:8px 15px;
+border-radius:20px;
+background:#444;
+}
+
+nav a:hover{
+background:#6c63ff;
+}
+
+/* العنوان */
+header{
+padding:40px;
+background:#6c63ff;
+color:white;
+}
+
+/* الصناديق */
+.box{
+background:white;
+margin:30px auto;
+padding:20px;
+width:85%;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* الأكواد */
+pre{
+background:#eee;
+padding:10px;
+border-radius:10px;
+}
+
+/* الأزرار */
+button{
+background:#6c63ff;
+border:none;
+color:white;
+padding:12px 25px;
+border-radius:25px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#5148d8;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#html">HTML</a>
+<a href="#css">CSS</a>
+<a href="#task">تمرين</a>
+</nav>
+
+<header>
+<h1>تعلم البرمجة</h1>
+<p>أساسيات HTML و CSS</p>
+</header>
+
+<div class="box" id="html">
+<h2>HTML</h2>
+<p>لغة بناء صفحات الويب</p>
+
+<pre>
+&lt;h1&gt;عنوان&lt;/h1&gt;
+&lt;p&gt;فقرة&lt;/p&gt;
+&lt;a href="#"&gt;رابط&lt;/a&gt;
+</pre>
+
+<button>ابدأ HTML</button>
+</div>
+
+<div class="box" id="css">
+<h2>CSS</h2>
+<p>لغة تنسيق الموقع</p>
+
+<pre>
+color: red;
+background: blue;
+font-size: 20px;
+padding: 10px;
+</pre>
+
+<button>ابدأ CSS</button>
+</div>
+
+<div class="box" id="task">
+<h2>تمرين</h2>
+<p>اعملي عنوان وفقرة وغيري لونهم في CSS</p>
+
+<button>حل التمرين</button>
+</div>
+
+<footer>
+<p>© موقع تعلم البرمجة</p>
+</footer>
+
+</body>
+</html>
